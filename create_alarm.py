@@ -14,7 +14,7 @@ cloudwatch.put_metric_alarm(
     Statistic='Average',
     Threshold=80.0,
     ActionsEnabled=False,
-    AlarmDescription='Alarm when server CPU exceeds 70%',
+    AlarmDescription='Alarm when server CPU exceeds 80%',
     Dimensions=[
         {
           'Name': 'InstanceId',
